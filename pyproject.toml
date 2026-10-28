@@ -1,0 +1,57 @@
+[project]
+name = "agentic-ai-bootcamp"
+version = "0.1.0"
+description = "Coursework for the Agentic AI bootcamp: Python, LangChain, LangGraph, RAG"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # LangChain / LangGraph
+    "langchain",
+    "langchain-core",
+    "langchain-community",
+    "langchain-text-splitters",
+    "langchain-openai",
+    "langchain-groq",
+    "langchain-google-genai",
+    "langchain-huggingface",
+    "langchain-ollama",
+    "langchain-chroma",
+    "langchain-litellm",
+    "langgraph",
+    "litellm",
+    # RAG: loaders, embeddings, vector stores
+    "chromadb",
+    "faiss-cpu",
+    "sentence-transformers",
+    "pypdf",
+    "pymupdf",
+    "beautifulsoup4",
+    "lxml",
+    "arxiv",
+    "wikipedia",
+    # Utilities
+    "pydantic",
+    "python-dotenv",
+    "requests",
+    "tqdm",
+    "fastapi>=0.162.0",
+    "soundfile>=0.14.0",
+]
+
+[dependency-groups]
+dev = ["ipykernel"]
+# Complete-Python-Bootcamp-main (data analysis, web apps, profiling)
+python-basics = [
+    "numpy",
+    "pandas",
+    "openpyxl",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "flask",
+    "streamlit",
+    "memory-profiler",
+]
+
+[tool.uv]
+default-groups = ["dev", "python-basics"]

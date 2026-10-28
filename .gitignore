@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Generated artifacts
+*.log
+Basics_Of_Langchain/5-VectorStore/chroma_db/
+Basics_Of_Langchain/5-VectorStore/faiss_index/

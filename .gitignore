@@ -15,3 +15,15 @@ __pycache__/
 *.log
 Basics_Of_Langchain/5-VectorStore/chroma_db/
 Basics_Of_Langchain/5-VectorStore/faiss_index/
+
+# Tools / build
+.idea/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# Local databases
+*.db
+*.sqlite3
